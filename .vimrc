@@ -35,6 +35,12 @@ if has("unix") || has("mac")
         silent cd $HOME
     endif
     set runtimepath+=$HOME/.vim/bundle/Vundle.vim
+
+    "[Set viminfo manually]"
+    if !isdirectory(expand("$HOME/.vim/files/info"))
+        silent !mkdir -p $HOME/.vim/files/info
+    endif
+    set viminfo='100,n$HOME/.vim/files/info/viminfo
 else
     if !isdirectory(expand("$HOME\vimfiles\bundle"))
         silent cd $HOME
