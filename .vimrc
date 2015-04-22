@@ -89,6 +89,9 @@ try
 catch
 endtry
 
+"[Set tags]"
+set tags=./tags,tags
+
 "[Recognize the type/syntax of the file]"
 filetype plugin on
 filetype indent on
