@@ -90,7 +90,7 @@ catch
 endtry
 
 "[Set tags]"
-set tags=./tags,tags
+set tags=~/tags
 
 "[Recognize the type/syntax of the file]"
 filetype plugin on
