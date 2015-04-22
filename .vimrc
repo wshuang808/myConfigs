@@ -17,6 +17,7 @@
 "| EasyMotion       | https://github.com/Lokaltog/vim-easymotion      |
 "| AutoComplPop     | https://github.com/vim-scripts/AutoComplPop     |
 "| Multiple-Cursors | https://github.com/terryma/vim-multiple-cursors |
+"| Vim-Obsession    | https://github.com/tpope/vim-obsession          |
 "+------------------+-------------------------------------------------+
 "[Colorschemes list]
 "+------------------+-------------------------------------------------+
@@ -85,6 +86,7 @@ try
     "[Vim colorschemes]"
     Plugin 'tomasr/molokai'
     Plugin 'djjcast/mirodark'
+    Plugin 'tpope/vim-obsession'
     call vundle#end()
 catch
 endtry
