@@ -1,5 +1,5 @@
 "[License: public domain]"
-"[Author: Karlkorp]"
+"[Author: Karlkorp https://github.com/karlkorp/.vimrc]"
 "[Plug-ins list]"
 "+------------------+-------------------------------------------------+
 "| CtrlP            | https://github.com/kien/ctrlp.vim               |
