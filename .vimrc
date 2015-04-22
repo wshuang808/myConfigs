@@ -421,7 +421,7 @@ function! DeleteTWAutoIndent()
     normal mb
     silent %s/[ \t]*$//g
     silent %s/\s\+$//ge
-    silent normal gg=G
+    "silent normal gg=G
     normal 'b
 endfunction
 if has("autocmd")
