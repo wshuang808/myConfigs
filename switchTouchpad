@@ -1,0 +1,6 @@
+#!/bin/bash
+# show input device list to get id of touchpad
+# xinput --list
+
+# 1 to enable, 0 to disable
+xinput set-int-prop 14 "Device Enabled" 8 $1
